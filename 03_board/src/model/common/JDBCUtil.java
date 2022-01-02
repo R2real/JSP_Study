@@ -7,8 +7,8 @@ import java.sql.SQLException;
 
 public class JDBCUtil {
 	static String driver = "com.mysql.jdbc.Driver";
-	static String url = "jdbc:mysql://localhost:3306/webdb";
-	static String user = "bang";
+	static String url = "jdbc:mysql://localhost:3306/basic";
+	static String user = "kang";
 	static String password = "1234";
 	
 	public static Connection connect() {
