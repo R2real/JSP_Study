@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app>
+	<contect-param>
+		<param-name>encoding</param-name>
+		<param-value>UTF-8</param-value>
+	</contect-param>
+	<servlet>
+		<servlet-name>fc</servlet-name>
+		<servlet-class>controller.FrontController</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>fc</servlet-name>
+		<url-pattern>*.do</url-pattern>
+	</servlet-mapping>
+</web-app>
